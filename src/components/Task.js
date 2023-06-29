@@ -47,7 +47,7 @@ export default function Task({ task: { id, title, state }, onArchiveTask, onPinT
   );
 }
 
-Task.propsTypes = {
+Task.propTypes = {
   task: PropsTypes.shape({
     id: PropsTypes.string.isRequired,
     title: PropsTypes.string.isRequired,
